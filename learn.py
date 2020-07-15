@@ -6,4 +6,4 @@ else
    print("goood") git status
   
 
- print("remove this line")  
+ print("learning or not")
