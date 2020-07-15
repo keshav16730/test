@@ -3,4 +3,7 @@ a=input("what")
 if a=="git"
    print("good")
 else    
-   print("goood") 
+   print("goood") git status
+  
+
+ print("remove this line")  
