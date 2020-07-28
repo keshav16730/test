@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		DEMO PAGE
+	</title>
+   <link rel="stylesheet" type="text/css" href="page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <style>
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 12px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 15px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 10px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+	<div class="a1">
+      <h3 id="q1">&#129120</h3>  
+    <div class="a2">
+      <h3>Add Traveller Details</h3>
+      <p>Pune 🡢 Mumbai | 05 Feb,Tue </p>	
+     </div>
+    </div>
+ <div>
+    <div class="a3">
+     <h3>Boarding Station</h3>
+     <h5>Pune Jn(pune)-06:00</h5>
+     <p3>GNWL40/WL31</p3>
+    </div>
+    <div class="a4">
+     <h3><img src="https://img.icons8.com/ultraviolet/18/000000/edit.png"/>CHANGE</h3>
+     <p2 >Availability has changed</p2>
+    </div>
+  </div>	
+     <div class="a5"> 
+     </div>	
+  
+
+   <div class="a6">
+     <div class="a7">
+     <h5>Add New Traveller Details</h5>
+    </div>
+    
+     <div class="a8"><p>Save save for future</p>
+     </div>
+   
+    <div class="toggle">
+      
+      <label class="switch">
+      <input type="checkbox" checked>
+      <span class="slider round"></span>
+      </label>
+
+    </div>
+   </div>
+   
+
+   <div class="a9">
+    
+     <form class='myform'>
+	 <div class="row">
+     <div class="col-s-6"> 
+      <div class="formgrp">
+      <label>FULL NAME</label> 
+      <input type="text" name="name">
+      <p>Name shouldbe same as on Government ID proof</p>
+     
+      </div>
+     </div> 	
+    
+     </div> 	
+    </form>
+
+  </div>
+
+  <div class="a10">
+  <div class="a11">
+   <label>AGE(YEARS)</label> 
+      <input type="text" name="name">
+      <p>senior citizen</p>
+  </div>
+</div>
+
+ <div class="a12">
+ 	<div class="a13">
+ 		<h5>GENDER</h5>
+ <div class="a14">
+ <table class="buttons">		
+ <tr>
+    <td><button type="button">MALE</button>
+   </td>
+   <td><button type="button">FEMALE</button>
+   </td>
+   </tr>
+   </table> 	
+ 	</div>
+</div>
+ </div>
+
+
+<div class="a15">
+ 
+  <div class="a16">
+   <label>BERTH PREFERENCE</label> 
+      <input type="text" name="name">
+      <p>Not Guaranteed</p>
+  </div>
+
+
+
+
+  <div class="a18">
+   <label>NATIONALITY</label> 
+      <input type="text" name="name">
+      
+   </div>
+
+  </div>
+ 
+  <div class="a19">
+   <label>MEAL PREFERENCE</label>
+   <input type="text" name="name">
+    <p>Helper Text</p>
+
+
+
+  </div>
+
+ <div class="a20">
+ <div class="a21">
+ <input type="checkbox"  class="checkbox"name="checkbox"></div>
+ <div class="a22">
+ <h4><space>&nbsp;</space>  50% Senior Citizen Discount</h4>
+<p>Please carry valid age proof ID</p>
+</div>
+</div>
+<div class="a0"> 
+     </div>	
+
+ 
+ <div class="a23">
+ <div class="a24">
+ <h4>Contact Details</h4>
+ <h5>To receive your ticket & updates</h5>
+ <img src="https://img.icons8.com/ios/20/000000/important-mail.png"/>
+ <p2>&nbsp;Random@gmail.com</p2>
+ </div>
+ 
+
+
+
+ <div class="a25">
+ 
+ <p1><img src="https://img.icons8.com/ultraviolet/18/000000/edit.png"/>EDIT</p1>
+ <h6><img src="https://img.icons8.com/material-sharp/20/000000/phone-disconnected.png"/>8698671594</h6>
+ </div>	
+ </div>
+ <div class="a27"> 
+     </div>	
+
+ <div class="a30">
+ <div class="a31">
+ 	<img src="https://img.icons8.com/ultraviolet/20/000000/add-user-female.png"/>
+ </div>
+ <div class="a32">
+ <h4>ADD TRAVELLER</h4>
+ </div>
+ <div class="a33">
+ <button class="buttonss">PROCEED</button>	
+ </div>	
+ </div>  
+
+</body>
+</html>
